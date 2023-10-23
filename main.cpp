@@ -12,7 +12,7 @@ int main(){
 	//now
 	std::time_t now = std::time(0);
 	//then
-  std::time_t then = std::mktime(&chosen_date);
+  	std::time_t then = std::mktime(&chosen_date);
 	//diff
 	auto diff = then - now;
 	
